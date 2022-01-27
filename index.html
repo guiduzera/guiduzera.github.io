@@ -4,17 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       body {
+            background-image: linear-gradient(to bottom,  #9fd356ff, #e9f1f7ff);
+            background-attachment: fixed;
+        }
+
+        main {
+            background-color: white;
+            margin:200px;
+            padding: 20px;
+            box-shadow: 5px 5px 5px black;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        #trybe :hover{
+            color: green;
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        #trybe {
+            text-decoration: none;
+            color: green;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        a :hover {
+            text-decoration: underline;
+            color:green;
+
+        }
+
+        li {
+            display: inline-block;
+            padding: 20px;
+        }
+
+       
+    </style>
     <title>Portifolio web</title>
-</head>
+    </head>
 <body>
-    <h1>Bem vindo ao meu Portfólio Web!</h1>
-    <h2>Ola, me chamo Guilherme Eduardo Teixeira Carvalho e sou estudante de Desenvolvimento Web na <a href="https://www.betrybe.com/" target="_blank"><strong>Trybe</strong></a></h2>
-    <nav>
-        <ul>
-            <li><a href="p2.html" target="_blank"><strong>apresentação</strong></a></li>
-            <li><a href="p3.html" target="_blank"><strong>competências</strong></a></li>
-            <li><a href="p4.html" target="_blank"><strong>entreterimento</strong></a></li>
-        </ul>
-    </nav>
+    <main>
+        <h1>Bem vindo ao meu Portfólio Web!</h1>
+    <h2>Ola, me chamo Guilherme Eduardo Teixeira Carvalho e sou <br> estudante de Desenvolvimento Web na <a href="https://www.betrybe.com/" target="_blank" id="trybe"><strong>Trybe</strong></a></h2>
+         <nav>
+            <ul>
+                <li><a href="p2.html" target="_self"><strong>apresentação</strong></a></li>
+                <li><a href="p3.html" target="_self"><strong>competências</strong></a></li>
+                <li><a href="p4.html" target="_self"><strong>entreterimento</strong></a></li>
+                </ul>
+         </nav>
+    </main> 
 </body> 
 </html>
