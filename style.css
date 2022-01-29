@@ -82,9 +82,6 @@ main {
     align-items: center;
     padding: 40px;
     justify-content: center;
-    overflow: scroll;
-    overflow-y: hidden;
-    
 }
 
 #lazer {
